@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.send('<h3>WELCOME TO LVZI</h3>');
 });
 
 module.exports = router;
